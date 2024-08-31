@@ -114,8 +114,11 @@ elif education_level == "College":
 st.header("✉️Get in Touch")
 st.write("Feel free to reach out to me through the form below.")
 
+st.write("Facebook 💙: Kerch Cabo")
+st.write("Instagram 🩷: kerchester_")
+st.write("Tiktok ❤️: krchcb31")
+
 name = st.text_input("Name")    
-email = st.text_input("Email")
 message = st.text_area("Message")
 
 if st.button("Send"):
