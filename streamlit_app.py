@@ -58,13 +58,6 @@ I'm passionate about designing, and I'm excited to share my journey with you.
 
 st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
 
-# Favorite Colors
-st.subheader("🎨Favorite Color")
-st.write("""
-My favorite color is any shades of **Blue**. I find it calming and this inspires my creativity.
-""")
-st.color_picker('Choose a color you like', '#0000FF')
-
 # About Me
 st.header("🧑🏻About Me")
 
@@ -72,6 +65,15 @@ st.header("🧑🏻About Me")
 age = st.slider('My age', 18, 30, 21)  # Default age is 21
 st.write(f"My name is **Kerch B. Cabo** and I’m currently {age} years old, studying at **Cebu Institute of Technology - University**. "
          "I'm a BSIT-4 student and have a passion for designing.")
+
+
+# Favorite Color
+st.subheader("🎨Favorite Color")
+st.write("""
+My favorite color is any shades of **Blue**. I find it calming and this inspires my creativity.
+""")
+st.color_picker('Choose a color you like', '#0000FF')
+
 
 # Hobbies Pie Chart
 st.header("🏐My Hobbies")
