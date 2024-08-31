@@ -53,7 +53,7 @@ with col2:
 
 st.write("""
 Hello! I'm **Kerch B. Cabo**, a 21-year-old student from **Cebu Institute of Technology - University**.
-I'm passionate about technology and design, and I'm excited to share my journey with you.
+I'm passionate about designing, and I'm excited to share my journey with you.
 """)
 
 st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
