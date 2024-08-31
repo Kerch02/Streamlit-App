@@ -51,11 +51,6 @@ with col1:
 with col2:
     st.image('me.jpg', width=100, use_column_width=False)  # Use Streamlit's image method for better handling
 
-st.write("""
-Hello! I'm **Kerch B. Cabo**, a 21-year-old student from **Cebu Institute of Technology - University**.
-I'm passionate about designing, and I'm excited to share my journey with you.
-""")
-
 st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
 
 # About Me
