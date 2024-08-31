@@ -116,7 +116,7 @@ st.write("Feel free to reach out to me through the form below.")
 
 st.write("Facebook 💙: Kerch Cabo")
 st.write("Instagram 🩷: kerchester_")
-st.write("Tiktok ❤️: krchcb31")
+st.write("Tiktok ❤️ : krchcb31")
 
 name = st.text_input("Name")    
 message = st.text_area("Message")
