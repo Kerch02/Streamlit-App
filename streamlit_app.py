@@ -68,7 +68,6 @@ My favorite color is any shades of **Blue**. I find it calming and this inspires
 """)
 st.color_picker('Choose a color you like', '#0000FF')
 
-
 # Hobbies Pie Chart
 st.header("🏐My Hobbies")
 st.write("Here’s a visual representation of how I spend my leisure time:")
@@ -105,6 +104,17 @@ elif education_level == "Secondary":
 elif education_level == "College":
     st.write('<p style="color:white;">- <b>Cebu Institute of Technology - University</b></p>', unsafe_allow_html=True)
     st.write('<p style="color:white;">  - Bachelor of Science in Information Technology</p>', unsafe_allow_html=True)
+
+# Favorite K-Pop Girl Groups
+st.header("🎤 Favorite K-Pop Girl Groups")
+st.write("""
+I’m a big fan of K-pop, and here are some of my favorite girl groups:
+""")
+kpop_groups = ['TWICE', 'NMIXX']
+
+# Display K-pop groups with icons
+for group in kpop_groups:
+    st.write(f"✨ {group}")
 
 # Contact
 st.header("✉️Get in Touch")
